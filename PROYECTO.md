@@ -5,7 +5,7 @@ Nuestro proyecto va a tratar de una tienda de merchandising sobre articulos de b
 
 La funcionalidad básica que debe ofrecer es brindarle usabilidad al usuario, que le sea fácil navegar por la web, que sea legible y tenga un sentido tanto para el usuario, como para el lector web, brindando así accesibilidad a nuestro código. 
 
-## 1. **Creación de un wireframe en Balsamiq:**
+## 2. **Creación de un wireframe en Balsamiq:**
 
 
 
