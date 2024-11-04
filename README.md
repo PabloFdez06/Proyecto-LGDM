@@ -5,3 +5,5 @@
 #### Mi idea principal sería una tienda de merchandasing de boxeo personalizado, como guantes, manoplas, zapatillas, bucales, vendas, pantalones, etc.
 
 El nombre que le asignare a la empresa que crearé para ello será: **BoxingMerch**
+
+###[IR AL PROYECTO](Proyecto.md)
