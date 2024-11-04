@@ -6,4 +6,4 @@
 
 El nombre que le asignare a la empresa que crearé para ello será: **BoxingMerch**
 
-###[IR AL PROYECTO](PROYECTO.md)
+[IR AL PROYECTO](PROYECTO.md)
