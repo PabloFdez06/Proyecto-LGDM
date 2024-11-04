@@ -8,6 +8,12 @@ La funcionalidad básica que debe ofrecer es brindarle usabilidad al usuario, qu
 ## 2. **Creación de un wireframe en Balsamiq:**
 #### [Wireframe del proyecto](Wireframe_Proyecto_LGDM.pdf)
 
+## 3. **Estructura HTML planificada:** ##
+
+Los estudiantes deben planificar cómo estructurarán su código HTML, identificando qué etiquetas y atributos usarán en cada sección.
+Producto: Un esquema detallado de la estructura HTML y una justificación del uso de etiquetas semánticas.
+
+
 
 
 #### **Evaluación: Seréis evaluados y evaluadas en función de la capacidad para planificar y justificar su estructura, incluyendo el análisis de las etiquetas y lenguajes de marcas más relevantes para el proyecto (CE 1a, 1c, 1d, 1f, 2a).**
