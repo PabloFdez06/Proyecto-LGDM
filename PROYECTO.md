@@ -5,7 +5,7 @@ Nuestro proyecto va a tratar de una tienda de merchandising sobre articulos de b
 
 La funcionalidad básica que debe ofrecer es brindarle usabilidad al usuario, que le sea fácil navegar por la web, que sea legible y tenga un sentido tanto para el usuario, como para el lector web, brindando así accesibilidad a nuestro código.
 
-Para ello, haremos uso de **HTML5** para la estructura de la web, **CSS3** para el diseño, **Balsamiq** para los wireframes y por ultimo **git** como controlador de versiónes y **github** para subir el repositorio de nuetro proyecto, en el que hacemos uso de **Markdown**.
+Para ello, haremos uso de **HTML5** para la estructura de la web, **CSS3** para el diseño, **Balsamiq** para los wireframes y por ultimo **git** como controlador de versiónes y **github** para subir el repositorio de nuetro proyecto, en el que hacemos uso de **Markdown** para toda información que se ve en esta página ;).
 
 ## 2. **Creación de un wireframe en Balsamiq:**
 #### [Wireframe del proyecto](Wireframe_Proyecto_LGDM.pdf)
