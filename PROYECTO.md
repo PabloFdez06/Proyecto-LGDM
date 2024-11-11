@@ -5,15 +5,17 @@ Nuestro proyecto va a tratar de una tienda de merchandising sobre articulos de b
 
 La funcionalidad básica que debe ofrecer es brindarle usabilidad al usuario, que le sea fácil navegar por la web, que sea legible y tenga un sentido tanto para el usuario, como para el lector web, brindando así accesibilidad a nuestro código.
 
-Para ello, haremos uso de **HTML5** para la estructura de la web, **CSS3** para el diseño, **Balsamiq** para los wireframes y por ultimo **git** como controlador de versiónes y **github** para subir el repositorio de nuetro proyecto.
+Para ello, haremos uso de **HTML5** para la estructura de la web, **CSS3** para el diseño, **Balsamiq** para los wireframes y por ultimo **git** como controlador de versiónes y **github** para subir el repositorio de nuetro proyecto, en el que hacemos uso de **Markdown**.
 
 ## 2. **Creación de un wireframe en Balsamiq:**
 #### [Wireframe del proyecto](Wireframe_Proyecto_LGDM.pdf)
 
 ## 3. **Estructura HTML planificada:** ##
 
-Los estudiantes deben planificar cómo estructurarán su código HTML, identificando qué etiquetas y atributos usarán en cada sección.
-Producto: Un esquema detallado de la estructura HTML y una justificación del uso de etiquetas semánticas.
+Mi proyecto seguirá una estructura, la cual será la siguiente: head, donde se encontrara todos los meta del documento. Un body el cual incluye: 
+- Un Header, en el cual generalmente debe encontrarse el NAV, es decir el navegador de la web, junto al logo, y en algunas encontraremos el carrito de la compra y el logo del perfil.
+- Un Main, en el que tendremos todo el contenido de la web, dependiendo claramente de que conste cada página (en el haremos uso de sections, labels, articles, etc).
+- Un footer, en el que encontraremos lineas de contactos con la empresa, alguna info extra sobre la empresa, etc.
 
 
 
