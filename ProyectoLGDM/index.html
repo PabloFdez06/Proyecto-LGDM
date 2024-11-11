@@ -9,39 +9,49 @@
     <title>Document</title>
 </head>
 
-<header>
-    <nav>
-        <img class="fotologin" src="./assets/img/BoxingMerch.png" alt="">
-    </nav>
-</header>
+
 
 <body>
-    <h1>INICIO DE SESION | REGISTRO</h1>
+    <header>
+        <nav>
+            <img class="fotologin" src="./assets/img/BoxingMerch.png" alt="">
+        </nav>
+    </header>
+    
 
-    <section>
-        <form action="Formulario Registro o Inicio de sesión">
-            <fieldset><legend>LOGIN</legend>
-            <article>
-                Email: <input type="email">
-                Contraseña: <input type="password">
-            </article>
-            
-            <article>
-                <button>LOGIN</button>
-                Recuerdame <input type="checkbox" name="Recuerdame">
-                <a href="ayuda.com">¿Has olvidado tu contraseña?</a>
-            </article>
+    <main>
+        <h1><a href="">INICIO DE SESION</a> | <a href="">REGISTRO</a></h1>
+        <section>
+            <form action="Formulario Registro o Inicio de sesión">
+                <fieldset><legend>LOGIN</legend>
+                <article class="login">
+                    <label for="log">
+                        Email: <input type="email">
+                    <!-- </label> 
+                    <label for=""> -->
+                        Contraseña: <input type="password">
+                    </label>
+                    <button>LOGIN</button>
+                    <label for="">
+                        Recuerdame <input type="checkbox" name="Recuerdame">
+                    </label>
+                    <a href="google.com">¿Has olvidado tu contraseña?</a>
+                    
+                </article>
+    
+                <article class="iniciarcon">
+                    Iniciar Sesión con:
+                    <button class="boton1">F | Facebook</button>
+                    <button class="boton2">G | Google</button>
+                    <button class="boton3">X | Twitter</button>
+                </article>
+    
+            </fieldset>
+            </form>
+        </section>
+    </main>
 
-            Iniciar sesión con:
-            <article class="iniciocon">
-                <button >F | Facebook</button>
-                <button>G | Google</button>
-                <button>X | Twitter</button>
-            </article>
 
-        </fieldset>
-        </form>
-    </section>
 
 
 
