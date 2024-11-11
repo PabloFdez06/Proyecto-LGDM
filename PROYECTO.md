@@ -16,8 +16,3 @@ Mi proyecto seguirá una estructura, la cual será la siguiente: head, donde se 
 - Un Header, en el cual generalmente debe encontrarse el NAV, es decir el navegador de la web, junto al logo, y en algunas encontraremos el carrito de la compra y el logo del perfil.
 - Un Main, en el que tendremos todo el contenido de la web, dependiendo claramente de que conste cada página (en el haremos uso de sections, labels, articles, etc).
 - Un footer, en el que encontraremos lineas de contactos con la empresa, alguna info extra sobre la empresa, etc.
-
-
-
-
-#### **Evaluación: Seréis evaluados y evaluadas en función de la capacidad para planificar y justificar su estructura, incluyendo el análisis de las etiquetas y lenguajes de marcas más relevantes para el proyecto (CE 1a, 1c, 1d, 1f, 2a).**
