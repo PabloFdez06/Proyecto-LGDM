@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: monospace;
+}
+
+
+
+/* DESDE AQUI HASTA EL INDICADO, SERÁ EL NAVEGADOR */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background-color: black;
+    height: 20vh;
+    
+}
+
+.logo_nav{  /* Imagen */
+    width: 150px;
+}
+
+/* -------------------------- */
+
+/* Desde este comentario, hasta el siguiente, tenemos el menu de navegacion que consta debajo del titulo */
+
+label button{   
+    color: red;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.titulo_nav{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+hr{
+    margin: 5px;
+    border-color: red;
+}
+
+/* HASTA AQUI */
+
+/* -------------------------- */
+
+/* Desde aqui hasta el siguiente comentario, estilo de los 2 botones de perfil y cesta */
+
+.botones_extremo_derecho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    border-left: 1px solid #ff0000;
+    height: 50px;
+
+}
+
+
+
+button{
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+/* ---------- FIN DEL NAVEGADOR ------------ */
+
+/* ######################################### */
+
+/* ---------- COMIENZO DEL MAIN ------------ */
+
+
+
+.foto_mainpage{
+    width: 500px;
+    height: 350px;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    
+}

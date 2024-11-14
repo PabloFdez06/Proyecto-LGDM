@@ -19,24 +19,24 @@ fieldset{
 
 h1{
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 article{
     padding: 20px;
-    height: 10vh;
+    height: 15vh;
 }
 
 .login{
     display: flex;
     flex-direction: column;
+
 }
 
 label{
@@ -45,15 +45,13 @@ label{
     padding: 15px;
 }
 
-
-
 .iniciarcon{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 5vh;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 button{
