@@ -1,12 +1,25 @@
 *{
+    box-sizing: border-box;
     margin: 0%;
     padding: 0%;
     font-family: monospace;
 }
 
+a{   
+    text-decoration: none;
+
+}
+
+li{
+    list-style: none;
+}
 
 
 /* DESDE AQUI HASTA EL INDICADO, SERÁ EL NAVEGADOR */
+
+header{
+    height: 10rem;
+}
 
 nav{
     display: flex;
@@ -14,25 +27,39 @@ nav{
     align-items: center;
     justify-content:space-between;
     background-color: black;
-    height: 20vh;
+    height: 100%;
     
 }
 
+
 .logo_nav{  /* Imagen */
-    width: 150px;
+    padding-left: 3rem;
+    width: 200px;
+    height: 100px;
 }
 
 /* -------------------------- */
 
 /* Desde este comentario, hasta el siguiente, tenemos el menu de navegacion que consta debajo del titulo */
 
-label button{   
-    color: red;
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
     padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    height: 100%;
+}
+
+
+nav ul li a{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1rem;
+    border-color: red;
+    padding: 10px 20px;;
+    text-decoration: none;
+    color: white;
+
 }
 
 .titulo_nav{
@@ -42,7 +69,7 @@ label button{
 }
 
 hr{
-    margin: 5px;
+    margin: 1rem;
     border-color: red;
 }
 
@@ -56,20 +83,28 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 20px;
-    border-left: 1px solid #ff0000;
-    height: 50px;
-
-}
-
-
-
-button{
-    margin: 5px;
     padding: 10px;
-    background-color: white;
+    border-left: 1px solid #ff0000;
+    height: 5rem;
 
 }
+
+.botones_extremo_derecho ul {
+    gap: 1rem;
+}
+
+.botones_extremo_derecho ul li a{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1rem;
+    border-color: white;
+    padding: 10px 10px;;
+    text-decoration: none;
+    color: white;
+}
+
+
+
 
 /* ---------- FIN DEL NAVEGADOR ------------ */
 
