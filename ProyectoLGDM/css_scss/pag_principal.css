@@ -15,10 +15,15 @@ li{
 }
 
 
-/* DESDE AQUI HASTA EL INDICADO, SERÁ EL NAVEGADOR */
+/* ---------- ----------------- ------------ */
+/* ---------- COMIENZO NAVEGADOR ------------ */
+/* ---------- ----------------- ------------ */
 
 header{
     height: 10rem;
+    position: sticky; /* Hace que el navegador se quede visible al hacer bajar o subir */
+    top: 0; /* Se pega al borde superior */
+    z-index: 1000;
 }
 
 nav{
@@ -28,7 +33,8 @@ nav{
     justify-content:space-between;
     background-color: black;
     height: 100%;
-    
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.215); /* Sombra para destacar el nav */
+
 }
 
 
@@ -53,13 +59,18 @@ nav ul{
 
 nav ul li a{
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 1rem;
     border-color: red;
     padding: 10px 20px;;
     text-decoration: none;
     color: white;
 
+}
+
+nav ul li a:hover{
+    color: #ff0000;
+    transition: color 0.3s ease; /* Animación al pasar el cursor */
 }
 
 .titulo_nav{
@@ -95,7 +106,7 @@ hr{
 
 .botones_extremo_derecho ul li a{
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 1rem;
     border-color: white;
     padding: 10px 10px;;
@@ -103,27 +114,129 @@ hr{
     color: white;
 }
 
+.botones_extremo_derecho ul li a:hover{
+    color: #ff0000;
+    transition: color 0.3s ease; /* Animación al pasar el cursor */
+}
 
 
-
+/* ---------- ----------------- ------------ */
 /* ---------- FIN DEL NAVEGADOR ------------ */
-
+/* ---------- ----------------- ------------ */
 /* ######################################### */
 
+/* ---------- ----------------- ------------ */
 /* ---------- COMIENZO DEL MAIN ------------ */
+/* ---------- ----------------- ------------ */
 
-
-
-.foto_mainpage{
-    width: 500px;
-    height: 350px;
-    
-}
 
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.729);
+}
+
+main h1{
+    color: white;
+    padding-top: 1rem;
+}
+
+/* Contenedor principal */
+.galeria {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 1rem; 
+    margin: 2rem;
+}
+
+/* Cada fila de imágenes */
+.galeria .fila {
+    display: flex;
+    justify-content: center; 
+    gap: 1rem; 
+}
+
+/* Imágenes */
+.galeria img {
+    width: 50vh; 
+    border-radius: 8px; 
+    transition: transform 0.3s ease;
     
 }
+
+/* Efecto hover en las imágenes */
+.galeria img:hover {
+    transform: scale(1.1); /* Agranda ligeramente la imagen */
+}
+
+/* ---------- ----------------- ------------ */
+/* ---------- FIN DEL MAIN ------------ */
+/* ---------- ----------------- ------------ */
+
+
+/* ---------- ----------------- ------------ */
+/* ---------- COMIENZO DEL FOOTER ------------ */
+/* ---------- ----------------- ------------ */
+
+.footer {
+    background-color: #121212; 
+    color: #ffffff; 
+    padding: 20px 40px;
+}
+
+/* Contenedor del footer */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    max-width: 100rem;
+}
+
+
+/* Títulos de las secciones */
+.footer-container h3 {
+    font-size: 18px;
+    color: #e5e5e5;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+/* Enlaces */
+.footer-container a {
+    color: rgb(253, 101, 131); 
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    text-decoration: underline; 
+}
+
+.footer-navegacion ul {
+    list-style: none;
+    
+}
+
+
+.redes-icons a {
+    color: rgb(253, 101, 131); 
+    font-size: 1.5rem; 
+    margin-right: 10px; 
+    transition: color 0.3s ease; /* Animación al pasar el cursor */
+}
+
+.redes-icons a:hover {
+    color: #ffffff; /* Cambia a blanco al pasar el cursor */
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+/* ---------- ----------------- ------------ */
+/* ---------- FIN DEL FOOTER ------------ */
+/* ---------- ----------------- ------------ */
