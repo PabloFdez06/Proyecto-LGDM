@@ -172,7 +172,7 @@ main h1{
     position: relative;
 }
 
-span{
+main article span{
     color: white;
     position: absolute;
     bottom: 1rem;
