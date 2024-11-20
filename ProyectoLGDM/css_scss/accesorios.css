@@ -138,6 +138,9 @@ main{
 main h1{
     color: white;
     padding-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding-left: 6rem;
 }
 
 /* Contenedor principal para filtros y galería */

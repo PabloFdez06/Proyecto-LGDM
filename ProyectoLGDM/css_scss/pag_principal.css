@@ -171,8 +171,8 @@ main h1{
     position: relative; /* Necesario para que los iconos se posicionen correctamente */
 }
 
-span{
-    color: white;
+
+.iconos {
     position: absolute;
     bottom: 1rem;
     right: 1rem;
