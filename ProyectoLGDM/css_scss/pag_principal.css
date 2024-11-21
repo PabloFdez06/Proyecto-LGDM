@@ -79,6 +79,7 @@ nav ul li a:hover{
 
 hr{
     margin: 1rem;
+    width: 100rem;
     border-color: red;
 }
 
@@ -129,10 +130,16 @@ hr{
 
 
 main{
+    width: 100%;
+    /* height: 68.89vh; */
+    height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.729);
+    background-image: url(/ProyectoLGDM/assets/img/pag_principal/foto_mainpage2.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+
 }
 
 main h1{
@@ -215,8 +222,8 @@ main h1{
 
 footer {
     background-color: #121212; 
-    color: #ffffff; 
-    padding: 20px 40px;
+    color: #ffffff;
+    padding: 1rem 10rem;
 }
 
 /* Contenedor del footer */
@@ -225,6 +232,7 @@ footer {
     flex-wrap: wrap; 
     justify-content: space-between; 
     max-width: 100rem;
+    height: 6rem;
 }
 
 
@@ -265,7 +273,7 @@ footer {
 
 .footer-copyright {
     text-align: center;
-    margin-top: 1rem;
+    padding-top: 1.5rem;
     font-size: 14px;
     color: #aaaaaa;
 }
