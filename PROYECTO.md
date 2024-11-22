@@ -14,6 +14,5 @@ Para ello, haremos uso de **HTML5** para la estructura de la web, **CSS3** para 
 
 Mi proyecto seguirá una estructura, la cual será la siguiente: head, donde se encontrara todos los meta del documento. Un body el cual incluye: 
 - Un Header, en el cual generalmente debe encontrarse el NAV, es decir el navegador de la web, junto al logo, y en algunas encontraremos el carrito de la compra y el logo del perfil.
-- Un Main, en el que tendremos todo el contenido de la web, dependiendo claramente de que conste cada página (en el haremos uso de sections, labels, articles, etc).
-- Hago uso del aside, para la seccion de filtros de los productos.
+- Un Main, en el que tendremos todo el contenido de la web, dependiendo claramente de que conste cada página (en el haremos uso de sections, labels, articles, aside, etc).
 - Un footer, en el que encontraremos lineas de contactos con la empresa, alguna info extra sobre la empresa, etc.
