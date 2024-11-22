@@ -148,13 +148,12 @@ main h1{
     padding-top: 1rem;
 }
 
-/* FORMULTARIO */
 .formulario {
     background-color: #121212;
     border: 2px solid #ff0000;
     border-radius: 1rem;
     padding: 2rem;
-    margin-top: 5rem;
+    margin-top: 9rem;
     width: 100%;
     max-width: 400px;
     color: white;
@@ -202,7 +201,7 @@ main h1{
     background-color: #e60000;
 }
 
-.formulario .registrarse{
+.formulario .entrar{
     margin: 0px;
     color: white;
     text-decoration: none;
@@ -219,9 +218,71 @@ main h1{
     text-decoration: underline;
 }
 
-.formulario .registrarse:hover{
+.formulario .entrar:hover{
     text-decoration: none;
 }
+
+/* Contenedor principal */
+.galeria {
+    width: 70%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    gap: 1rem; 
+    margin: 2rem;
+    position: relative
+}
+
+/* Imágenes */
+.galeria img {
+    width: 100%; 
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+
+.galeria img:hover {
+    transform: scale(1.1); 
+}
+
+
+.contenedor_imagen {
+    position: relative; /* Necesario para que los iconos se posicionen correctamente */
+}
+
+
+.iconos {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 0.5rem; /* Espaciado entre los íconos */
+}
+
+.iconos span {
+    color: white;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.iconos span:hover {
+    transform: scale(1.1);
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+.fa-cart-plus:hover {
+    color: rgba(116, 239, 255, 0.73);
+}
+
+
+
 
 
 
@@ -234,12 +295,13 @@ main h1{
 /* ---------- COMIENZO DEL FOOTER ------------ */
 /* ---------- ----------------- ------------ */
 
-/* footer {
+footer {
     background-color: #121212; 
     color: #ffffff;
     padding: 1rem 10rem;
 }
 
+/* Contenedor del footer */
 .footer-container {
     display: flex;
     flex-wrap: wrap; 
@@ -249,6 +311,7 @@ main h1{
 }
 
 
+/* Títulos de las secciones */
 .footer-container h3 {
     font-size: 18px;
     color: #e5e5e5;
@@ -256,6 +319,7 @@ main h1{
     padding-bottom: 1rem;
 }
 
+/* Enlaces */
 .footer-container a {
     color: rgb(253, 101, 131); 
     text-decoration: none;
@@ -275,20 +339,20 @@ main h1{
     color: rgb(253, 101, 131); 
     font-size: 1.5rem; 
     margin-right: 10px; 
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease; /* Animación al pasar el cursor */
 }
 
 .redes-icons a:hover {
-    color: #ffffff; 
+    color: #ffffff; /* Cambia a blanco al pasar el cursor */
 }
 
 .footer-copyright {
     text-align: center;
     padding-top: 1.5rem;
     font-size: 14px;
-    color: #aaaaaa; 
+    color: #aaaaaa;
 }
-*/
+
 /* ---------- ----------------- ------------ */
 /* ---------- FIN DEL FOOTER ------------ */
 /* ---------- ----------------- ------------ */
