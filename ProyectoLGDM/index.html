@@ -3,60 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/icons/BoxingMerchicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css_scss/style.css">
+    <script src="https://kit.fontawesome.com/aba1cb0a6a.js" crossorigin="anonymous"></script>
 
     <title>BoxingMerch</title>
 </head>
-
-
-
 <body>
-    <header>
+    <header class="cabecera">
         <nav>
-            <img class="fotologin" src="./assets/img/BoxingMerch.png" alt="">
+            <a href="index.html">
+                <img src="./assets/img/BoxingMerch.png" alt="LogoNav" class="logo_nav"> <!-- Logo del navegador -->
+
+            </a>
+
+            <article> <!-- Botones del navegador, para moverse entre páginas -->
+                <h1 class="titulo_nav">BIENVENIDO A BOXINGMERCH! TU TIENDA DE ACCESORIOS DE BOXEO DE CONFIANZA!</h1>
+                <hr>
+            </article>
+
+            <article class="botones_extremo_derecho"> <!-- botones del lateral -->
+                <ul>
+                    <li><a href="./cesta.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="./perfil.html"><i class="far fa-user-circle"></i></a></li>
+                </ul>
+            </article>
+
         </nav>
     </header>
-    
+
 
     <main>
-        <h1><a href="./index.html">INICIO DE SESION</a> | <a href="./registro.html">REGISTRO</a></h1>
-        <section>
-            <form action="Formulario Registro o Inicio de sesión">
-                <fieldset><legend>LOGIN</legend>
-                <article class="login">
-                    <label for="log">
-                        Email: <input type="email">
-                    <!-- </label> 
-                    <label for=""> -->
-                        Contraseña: <input type="password">
-                    </label>
-                    <button type="submit">LOGIN</button>
-                    <a href="google.com">¿Has olvidado tu contraseña?</a>
-                    <label for="">
-                        Recuerdame <input type="checkbox" name="Recuerdame">
-                    </label>
-                    
-                    <hr>
-                    
-                </article>
-    
-                <article class="iniciarcon">
-                    Iniciar Sesión con:
-                    <button class="boton1">F | Facebook</button>
-                    <button class="boton2">G | Google</button>
-                    <button class="boton3">X | Twitter</button>
-                </article>
-    
-            </fieldset>
-            </form>
-        </section>
+        <form action="submit-login" method="POST" class="formulario">
+            <h1>INICIAR SESIÓN</h1>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu correo" >
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" >
+            <button type="submit"><a href="./pag_principal.html" class="entrar">Entrar</a></button>
+            
+            <a href="./registro.html">¿No tienes cuenta? Regístrate aquí</a>
+        </form>
     </main>
+    
 
-
-
-
-
-
+    <!-- <footer>
+        <article class="footer-container">
+            Info de contacto
+            <article class="footer-section contacto">
+                <h3>Contacto</h3>
+                <p>📞 Teléfono: +34 123 456 789</p>
+                <p>✉️ Email: <a href="mailto:soporte@boxingmerch.com">soporte@boxingmerch.com</a></p>
+                <p>📍 Dirección: Calle Ficticia 123, Cadiz, España</p>
+            </article>
+    
+            Navegación footer
+            <article class="footer-section navegacion">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </article>
+    
+            Redes sociales
+            <article class="redes-icons">
+                    <h3>Síguenos</h3>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+            </article>
+        </article>
+    
+        Copyright
+        <article class="footer-copyright">
+            <p>&copy; 2024 Boxing Merch. Todos los derechos reservados.</p>
+        </article>
+        
+    </footer> -->
 </body>
 </html>

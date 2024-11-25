@@ -203,6 +203,7 @@ main{
   
   .remove:hover {
     background-color: #ff5e5e;
+
   }
   
   .cart-summary {
@@ -225,9 +226,9 @@ main{
     background-color: #ff3e3e;
     color: #1b1b1b;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
   }
   
