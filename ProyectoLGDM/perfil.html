@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css_scss/perfil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Librería de iconos accesibles -->
+    <link rel="shortcut icon" href="./assets/icons/BoxingMerchicon.png" type="image/x-icon">
+    <title>Perfil</title>
+</head>
+<body>
+    <header class="cabecera">
+        <nav>
+            <a href="index.html">
+                <img src="./assets/img/BoxingMerch.png" alt="LogoNav" class="logo_nav"> 
+
+            </a>
+
+            <article> 
+                <h1 class="titulo_nav">BOXING MERCH</h1>
+                <hr>
+                    <ul>
+                        <li><a href="./pag_principal.html">HOME</a></li>
+                        <li><a href="./sudaderas.html">SUDADERAS</a></li>
+                        <li><a href="./camisetas.html">CAMISETAS</a></li>
+                        <li><a href="./guantes.html">GUANTES</a></li>
+                        <li><a href="./accesorios.html">ACCESORIOS Y DEMÁS</a></li>
+                        <li><a href="./colaboradores.html">COLABORADORES</a></li>
+                    </ul>
+            </article>
+
+            <article class="botones_extremo_derecho"> 
+                <ul>
+                    <li><a href="./cesta.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="./perfil.html"><i class="far fa-user-circle"></i></a></li>
+                </ul>
+            </article>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="user-profile">
+            <article class="sidebar">
+                <article class="profile-pic">
+                    <img src="./assets/img/perfil/foto_perfil.jpg" alt="Foto de perfil">
+                    <p>Juan Pérez</p>
+                </article>
+
+                <ul>
+                    <li><a href="#personal-info">Datos Personales</a></li>
+                    <li><a href="#bank-info">Información Bancaria</a></li>
+                    <li><a href="#security">Seguridad</a></li>
+                    <li><a href="#notifications">Notificaciones</a></li>
+                    <li><a href="#img">Editar Imagen</a></li>
+                </ul>
+            </article>
+            <section class="main-content">
+              <!-- Datos Personales -->
+              <article id="personal-info">
+                <h2>Datos Personales</h2>
+                <form>
+                  <label for="name">Nombre:</label>
+                  <input type="text" id="name" name="name" value="Pepito juan" />
+                  
+                  <label for="email">Correo Electrónico:</label>
+                  <input type="email" id="email" name="email" value="pepito.juan@gmail.com" />
+                  
+                  <label for="phone">Teléfono:</label>
+                  <input type="tel" id="phone" name="phone" value="+34 678 123 456" />
+                  
+                  <button type="submit">Guardar Cambios</button>
+                </form>
+              </article>
+              
+              <!-- Información Bancaria -->
+              <article id="bank-info">
+                <h2>Información Bancaria</h2>
+                <article class="bank-card">
+                  <p>**** **** **** 1234</p>
+                  <p>Expira: 12/24</p>
+                  <button>Editar</button>
+                  <button>Eliminar</button>
+
+                </article>
+                <button>Añadir Tarjeta</button>
+              </article>
+              
+              <!-- Seguridad -->
+              <article id="security">
+                <h2>Seguridad</h2>
+                <form>
+                  <label for="current-password">Contraseña Actual:</label>
+                  <input type="password" id="current-password" name="current-password" />
+                  
+                  <label for="new-password">Nueva Contraseña:</label>
+                  <input type="password" id="new-password" name="new-password" />
+                  
+                  <button type="submit">Actualizar Contraseña</button>
+                </form>
+              </article>
+            </section>
+          </section>
+    </main>
+
+    <footer>
+        <article class="footer-container">
+            <!-- Info de contacto -->
+            <article class="footer-section contacto">
+                <h3>Contacto</h3>
+                <p>📞 Teléfono: +34 123 456 789</p>
+                <p>✉️ Email: <a href="mailto:soporte@boxingmerch.com">soporte@boxingmerch.com</a></p>
+                <p>📍 Dirección: Calle Ficticia 123, Cadiz, España</p>
+            </article>
+    
+            <!-- Navegación footer -->
+            <article class="footer-section navegacion">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </article>
+    
+            <!-- Redes sociales -->
+            <article class="redes-icons">
+                    <h3>Síguenos</h3>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+            </article>
+
+            <!-- Metodos de Pago -->
+            <article class="pay-icons">
+                <h3>Pagos</h3>
+                <a href="#"><i class="fas fa-credit-card"></i></a>
+                <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+                <a href="#"><i class="fab fa-paypal"></i></a>
+
+            </article>
+        </article>
+    
+        <!-- Copyright -->
+        <article class="footer-copyright">
+            <p>&copy; 2024 Boxing Merch. Todos los derechos reservados.</p>
+        </article>
+        
+    </footer>
+</body>
+</html>
+

@@ -32,8 +32,8 @@
 
             <article class="botones_extremo_derecho"> <!-- botones del lateral -->
                 <ul>
-                    <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
-                    <li><a href=""><i class="far fa-user-circle"></i></a></li>
+                    <li><a href="./cesta.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="./perfil.html"><i class="far fa-user-circle"></i></a></li>
                 </ul>
             </article>
 
@@ -87,12 +87,23 @@
                 <!-- Primer bloque de imágenes -->
                 <article class="galeria_hijo">
                     <article class="contenedor_imagen">
-                        <img src="./assets/img/pag_principal/foto_mainpage.jpg" alt="Imagen 1">
+                        <a href="#modal" class="imagen-link">
+                          <img src="./assets/img/pag_principal/foto_mainpage.jpg" alt="Imagen 1" class="imagen-producto">
+                        </a>
                         <label class="iconos">
-                            <span><i class="fa fa-solid fa-heart"></i></span>
-                            <span><i class="fa fa-solid fa-cart-plus"></i></span>
+                          <span><i class="fa fa-solid fa-heart"></i></span>
+                          <span><i class="fa fa-solid fa-cart-plus"></i></span>
                         </label>
-                    </article>
+                      </article>
+
+                    <div id="modal" class="modal">
+                        <div class="modal-content">
+                          <a href="#" class="close">&times;</a>
+                          <img src="./assets/img/pag_principal/foto_mainpage.jpg" alt="Imagen Ampliada" class="modal-image">
+                          <h2>Camiseta ejemplo</h2>
+                          <p>Tallas disponibles: S, M, XL</p>
+                        </div>
+                      </div>
         
                     <article class="contenedor_imagen">
                         <img src="./assets/img/pag_principal/foto_mainpage.jpg" alt="Imagen 2">
@@ -226,7 +237,16 @@
                     <a href="#"><i class="fab fa-youtube"></i></a>
             </article>
         </article>
-    
+
+            <!-- Metodos de Pago -->
+            <article class="pay-icons">
+                <h3>Pagos</h3>
+                <a href="#"><i class="fas fa-credit-card"></i></a>
+                <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+                <a href="#"><i class="fab fa-paypal"></i></a>
+
+            </article>
+                    
         <!-- Copyright -->
         <article class="footer-copyright">
             <p>&copy; 2024 Boxing Merch. Todos los derechos reservados.</p>

@@ -281,6 +281,65 @@ main h1{
     color: rgba(116, 239, 255, 0.73);
 }
 
+/* Código para que la imagen se amplie al clickar en ella */
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 0.8rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    height: 55vh;
+    max-width: 340px;
+    position: relative;
+  }
+  
+  .modal img {
+    width: 80%;
+    height: auto;
+    border-radius: 0.5rem;
+    
+
+  }
+
+  .modal img:hover{
+    transform: scale(1.0);
+
+  }
+  
+  
+  /* Enlace para cerrar */
+  .close {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    font-size: 30px;
+    color: #ff3e3e;
+    text-decoration: none;
+  }
+  
+  .close:hover {
+    color: #ff5e5e;
+  }
+  
+  /* Mostrar modal con anchor */
+  #modal:target {
+    display: flex;
+  }
 
 
 
@@ -343,6 +402,17 @@ footer {
 
 .redes-icons a:hover {
     color: #ffffff; /* Cambia a blanco al pasar el cursor */
+}
+
+.pay-icons a {
+    color: rgb(253, 101, 131); 
+    font-size: 1.5rem; 
+    padding-right: 0.7rem; 
+    transition: color 0.3s ease; 
+}
+
+.pay-icons a:hover {
+    color: #ffffff; 
 }
 
 .footer-copyright {

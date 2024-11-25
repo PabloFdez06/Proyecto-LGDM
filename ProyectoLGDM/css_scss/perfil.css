@@ -68,7 +68,7 @@ nav ul li a{
 
 nav ul li a:hover{
     color: #ff0000;
-    transition: color 0.3s ease; /* Animación al pasar el cursor */
+    transition: color 0.3s ease; 
 }
 
 .titulo_nav{
@@ -114,9 +114,8 @@ hr{
 
 .botones_extremo_derecho ul li a:hover{
     color: #ff0000;
-    transition: color 0.3s ease; /* Animación al pasar el cursor */
+    transition: color 0.3s ease;
 }
-
 
 /* ---------- ----------------- ------------ */
 /* ---------- FIN DEL NAVEGADOR ------------ */
@@ -127,171 +126,126 @@ hr{
 /* ---------- COMIENZO DEL MAIN ------------ */
 /* ---------- ----------------- ------------ */
 
-
-main{
+  
+  .user-profile {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.729);
-}
-
-main h1{
-    color: white;
-    padding-top: 1rem;
     width: 100%;
+  }
+  
+  .sidebar {
+    width: 25%;
+    background-color: #1b1b1b; 
+    color: #f5f5f5;
+    padding: 20px;
+    border-right: 2px solid #ff3e3e;
+  }
+  
+  .sidebar .profile-pic {
     text-align: center;
-    padding-left: 6rem;
-}
-
-/* Contenedor principal para filtros y galería */
-.contenedor_principal {
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-between; 
-    gap: 2rem; 
-    width: 90%;
-    margin: 2rem auto;
-}
-
-/* Menú de filtros */
-.menu_filtros {
-    width: 20%; /* El menú ocupa el 20% del ancho */
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 8px;
-    padding: 1.5rem;
-    box-shadow: 0 2px 6px rgb(255, 0, 0);
-}
-
-.menu_filtros h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    border-bottom: 2px solid #ff0000;
-    padding-bottom: 0.5rem;
-    color: #333;
-}
-
-.menu_filtros ul {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .profile-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ff3e3e; /* Borde rojo */
+  }
+  
+  .sidebar .profile-pic p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff3e3e; /* Texto rojo */
+  }
+  
+  .sidebar ul {
     list-style: none;
     padding: 0;
-}
-
-.menu_filtros .filtro {
-    position: relative;
-    margin-bottom: 1rem;
-}
-
-/* Estilo de los títulos */
-.menu_filtros .titulo_filtro {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    cursor: pointer;
-    color: #000000;
-    padding: 0.5rem;
-    border-radius: 0.3rem;
-    background-color:  rgba(0, 0, 0, 0.1);;
-}
-
-.menu_filtros .titulo_filtro:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.menu_filtros .submenu {
-    margin-top: 0.5rem;
-    padding-left: 1rem;
-    border-left: 1px solid #ff0000;
-    display: block; 
-    max-height: none; 
-}
-
-.menu_filtros .submenu li {
-    margin-bottom: 0.5rem;
-}
-
-.menu_filtros .submenu label {
-    font-size: 1rem;
-    color: #000000;
-    cursor: pointer;
-}
-
-.menu_filtros{
-    margin-right: 0.5rem;
-}
-
-.menu_filtros hr {
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 16px;
+    padding: 5px 10px;
+    display: block;
+    border-radius: 4px;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #ff5e5e;
+    color: #1b1b1b;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #1b1b1baa;
+  }
+  
+  .main-content section {
+    margin-bottom: 30px;
+  }
+  
+  .main-content h2 {
+    color: #ffffff; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #f5f5f5;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ff3e3e;
+    border-radius: 4px;
+    background-color: #1b1b1b;
+    color: #f5f5f5;
+  }
+  
+  form input:focus {
+    border-color: #ff5e5e;
+    outline: none;
+  }
+  
+  button {
+    background-color: #ff3e3e;
+    color: #1b1b1b;
     border: none;
-    height: 0.5px;
-    margin: 1rem 0;
-    background-color: #ff0000;
-
-}
-
-/* Galería de productos */
-.galeria {
-    width: 75%; /* La galería ocupa el 75% del ancho */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-/* Imágenes */
-.galeria img {
-    width: 100%; 
-    height: 30vh;
-    object-fit: cover;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-
-.galeria img:hover {
-    transform: scale(1.1); 
-}
-
-
-.contenedor_imagen {
-    position: relative; /* Necesario para que los iconos se posicionen correctamente */
-}
-
-
-.iconos {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    display: flex;
-    gap: 0.5rem; /* Espaciado entre los íconos */
-}
-
-.iconos span {
-    color: white;
-    font-size: 1.2rem;
-    transition: transform 0.3s ease;
+    padding: 10px 15px;
     cursor: pointer;
-}
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #ff5e5e;
+  }
+  
+  .bank-card {
+    background-color: #1b1b1b;
+    border: 1px solid #ff3e3e;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #f5f5f5;
+  }
+  
+  .bank-card p {
+    margin: 5px 0;
+  }
 
-.iconos span:hover {
-    transform: scale(1.1);
-}
-
-.fa-heart:hover {
-    color: red;
-}
-
-.fa-cart-plus:hover {
-    color: rgba(116, 239, 255, 0.73);
-}
-
-
-
-
-
-
-/* ---------- ----------------- ------------ */
-/* ---------- FIN DEL MAIN ------------ */
-/* ---------- ----------------- ------------ */
-
-
-/* ---------- ----------------- ------------ */
+  /* ---------- ----------------- ------------ */
 /* ---------- COMIENZO DEL FOOTER ------------ */
 /* ---------- ----------------- ------------ */
 
@@ -337,12 +291,12 @@ footer {
 .redes-icons a {
     color: rgb(253, 101, 131); 
     font-size: 1.5rem; 
-    margin-right: 10px; 
-    transition: color 0.3s ease; /* Animación al pasar el cursor */
+    padding-right: 0.7rem; 
+    transition: color 0.3s ease; 
 }
 
 .redes-icons a:hover {
-    color: #ffffff; /* Cambia a blanco al pasar el cursor */
+    color: #ffffff; 
 }
 
 .pay-icons a {

@@ -345,6 +345,17 @@ footer {
     color: #ffffff; /* Cambia a blanco al pasar el cursor */
 }
 
+.pay-icons a {
+    color: rgb(253, 101, 131); 
+    font-size: 1.5rem; 
+    padding-right: 0.7rem; 
+    transition: color 0.3s ease; 
+}
+
+.pay-icons a:hover {
+    color: #ffffff; 
+}
+
 .footer-copyright {
     text-align: center;
     margin-top: 1rem;

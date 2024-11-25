@@ -68,7 +68,7 @@ nav ul li a{
 
 nav ul li a:hover{
     color: #ff0000;
-    transition: color 0.3s ease; /* Animación al pasar el cursor */
+    transition: color 0.3s ease; 
 }
 
 .titulo_nav{
@@ -114,9 +114,8 @@ hr{
 
 .botones_extremo_derecho ul li a:hover{
     color: #ff0000;
-    transition: color 0.3s ease; /* Animación al pasar el cursor */
+    transition: color 0.3s ease;
 }
-
 
 /* ---------- ----------------- ------------ */
 /* ---------- FIN DEL NAVEGADOR ------------ */
@@ -127,169 +126,114 @@ hr{
 /* ---------- COMIENZO DEL MAIN ------------ */
 /* ---------- ----------------- ------------ */
 
-
 main{
+    background-color: #1b1b1baa;
+    padding: 50px;
+}
+
+.shopping-cart {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1b1b1b; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .shopping-cart h1 {
+    text-align: center;
+    color: #ff3e3e; 
+    font-size: 24px;
+    padding-bottom: 1.3rem;
+  }
+  
+  .cart-items {
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.729);
-}
-
-main h1{
-    color: white;
-    padding-top: 1rem;
-    width: 100%;
-    text-align: center;
-    padding-left: 6rem;
-}
-
-/* Contenedor principal para filtros y galería */
-.contenedor_principal {
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-between; 
-    gap: 2rem; 
-    width: 90%;
-    margin: 2rem auto;
-}
-
-/* Menú de filtros */
-.menu_filtros {
-    width: 20%; /* El menú ocupa el 20% del ancho */
-    background-color: rgba(255, 255, 255, 0.9);
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #2a2a2a; 
+    border: 1px solid #ff3e3e; 
     border-radius: 8px;
-    padding: 1.5rem;
-    box-shadow: 0 2px 6px rgb(255, 0, 0);
-}
-
-.menu_filtros h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    border-bottom: 2px solid #ff0000;
-    padding-bottom: 0.5rem;
-    color: #333;
-}
-
-.menu_filtros ul {
-    list-style: none;
-    padding: 0;
-}
-
-.menu_filtros .filtro {
-    position: relative;
-    margin-bottom: 1rem;
-}
-
-/* Estilo de los títulos */
-.menu_filtros .titulo_filtro {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    cursor: pointer;
-    color: #000000;
-    padding: 0.5rem;
-    border-radius: 0.3rem;
-    background-color:  rgba(0, 0, 0, 0.1);;
-}
-
-.menu_filtros .titulo_filtro:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.menu_filtros .submenu {
-    margin-top: 0.5rem;
-    padding-left: 1rem;
-    border-left: 1px solid #ff0000;
-    display: block; 
-    max-height: none; 
-}
-
-.menu_filtros .submenu li {
-    margin-bottom: 0.5rem;
-}
-
-.menu_filtros .submenu label {
-    font-size: 1rem;
-    color: #000000;
-    cursor: pointer;
-}
-
-.menu_filtros{
-    margin-right: 0.5rem;
-}
-
-.menu_filtros hr {
+  }
+  
+  .cart-item img {
+    width: 115px;
+    height: 100px;
+    border-radius: 4px;
+  }
+  
+  .item-details {
+    flex-grow: 1;
+    margin-left: 15px;
+  }
+  
+  .item-details h2 {
+    font-size: 18px;
+    color: #f5f5f5;
+  }
+  
+  .item-details p {
+    margin: 5px 0;
+    color: white;
+  }
+  
+  .item-details input {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ff3e3e;
+    border-radius: 4px;
+    background-color: #1b1b1b;
+    color: #f5f5f5;
+  }
+  
+  .remove {
+    background-color: #ff3e3e;
+    color: #1b1b1b;
     border: none;
-    height: 0.5px;
-    margin: 1rem 0;
-    background-color: #ff0000;
-
-}
-
-/* Galería de productos */
-.galeria {
-    width: 75%; /* La galería ocupa el 75% del ancho */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-/* Imágenes */
-.galeria img {
-    width: 100%; 
-    height: 30vh;
-    object-fit: cover;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-
-.galeria img:hover {
-    transform: scale(1.1); 
-}
-
-
-.contenedor_imagen {
-    position: relative; /* Necesario para que los iconos se posicionen correctamente */
-}
-
-
-.iconos {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    display: flex;
-    gap: 0.5rem; /* Espaciado entre los íconos */
-}
-
-.iconos span {
-    color: white;
-    font-size: 1.2rem;
-    transition: transform 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 4px;
     cursor: pointer;
-}
-
-.iconos span:hover {
-    transform: scale(1.1);
-}
-
-.fa-heart:hover {
-    color: red;
-}
-
-.fa-cart-plus:hover {
-    color: rgba(116, 239, 255, 0.73);
-}
-
-
-
-
-
-
-/* ---------- ----------------- ------------ */
-/* ---------- FIN DEL MAIN ------------ */
-/* ---------- ----------------- ------------ */
-
+  }
+  
+  .remove:hover {
+    background-color: #ff5e5e;
+  }
+  
+  .cart-summary {
+    text-align: right;
+  }
+  
+  .cart-summary p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .cart-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .cart-actions .continue, .cart-actions .checkout {
+    background-color: #ff3e3e;
+    color: #1b1b1b;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cart-actions .continue:hover, .cart-actions .checkout:hover {
+    background-color: #ff5e5e;
+  }
 
 /* ---------- ----------------- ------------ */
 /* ---------- COMIENZO DEL FOOTER ------------ */
@@ -337,12 +281,12 @@ footer {
 .redes-icons a {
     color: rgb(253, 101, 131); 
     font-size: 1.5rem; 
-    margin-right: 10px; 
-    transition: color 0.3s ease; /* Animación al pasar el cursor */
+    padding-right: 0.7rem; 
+    transition: color 0.3s ease; 
 }
 
 .redes-icons a:hover {
-    color: #ffffff; /* Cambia a blanco al pasar el cursor */
+    color: #ffffff; 
 }
 
 .pay-icons a {

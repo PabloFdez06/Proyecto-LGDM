@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css_scss/cesta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Librería de iconos accesibles -->
+    <link rel="shortcut icon" href="./assets/icons/BoxingMerchicon.png" type="image/x-icon">
+    <title>Cesta</title>
+</head>
+<body>
+    <header class="cabecera">
+        <nav>
+            <a href="index.html">
+                <img src="./assets/img/BoxingMerch.png" alt="LogoNav" class="logo_nav"> 
+
+            </a>
+
+            <article> 
+                <h1 class="titulo_nav">BOXING MERCH</h1>
+                <hr>
+                    <ul>
+                        <li><a href="./pag_principal.html">HOME</a></li>
+                        <li><a href="./sudaderas.html">SUDADERAS</a></li>
+                        <li><a href="./camisetas.html">CAMISETAS</a></li>
+                        <li><a href="./guantes.html">GUANTES</a></li>
+                        <li><a href="./accesorios.html">ACCESORIOS Y DEMÁS</a></li>
+                        <li><a href="./colaboradores.html">COLABORADORES</a></li>
+                    </ul>
+            </article>
+
+            <article class="botones_extremo_derecho"> 
+                <ul>
+                    <li><a href="./cesta.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="./perfil.html"><i class="far fa-user-circle"></i></a></li>
+                </ul>
+            </article>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="shopping-cart">
+            <h1>Tu Cesta</h1>
+            
+            <!-- Listado de productos -->
+            <section class="cart-items">
+              <!-- Producto 1 -->
+              <article class="cart-item">
+                <img src="./assets/img/cesta/guantes.png" alt="Producto">
+                <article class="item-details">
+                  <h2>Guantes Venom 10Oz</h2>
+                  <p>Precio: 84.00€</p>
+                  <p>Cantidad: 
+                    <input type="number" min="1" value="1">
+                  </p>
+                </article>
+                <button class="remove">Eliminar</button>
+              </article>
+              
+              <!-- Producto 2 -->
+              <article class="cart-item">
+                <img src="./assets/img/cesta/vendas.png" alt="Producto">
+                <article class="item-details">
+                  <h2>Vendas Leone 4.5 Metros</h2>
+                  <p>Precio: 12.00€</p>
+                  <p>Cantidad: 
+                    <input type="number" min="1" value="2">
+                  </p>
+                </article>
+                <button class="remove">Eliminar</button>
+              </article>
+
+              <!-- Producto 3 -->
+              <article class="cart-item">
+                <img src="./assets/img/cesta/bucal.png" alt="Producto">
+                <article class="item-details">
+                  <h2>Bucal Everlast Pro Silicone</h2>
+                  <p>Precio: 8.00€</p>
+                  <p>Cantidad: 
+                    <input type="number" min="1" value="1">
+                  </p>
+                </article>
+                <button class="remove">Eliminar</button>
+              </article>
+              
+              <!-- Producto 3 -->
+              <article class="cart-item">
+                <img src="./assets/img/cesta/camiseta.png" alt="Producto">
+                <article class="item-details">
+                  <h2>Camiseta Everlast básica</h2>
+                  <p>Precio: 21.00€</p>
+                  <p>Talla: M</p>
+                  <p>Cantidad: 
+                    <input type="number" min="1" value="1">
+                  </p>
+                </article>
+                <button class="remove">Eliminar</button>
+              </article>                
+            </section>
+            
+            <!-- Total y opciones -->
+            <section class="cart-summary">
+              <p>Gastos de envio: <strong>3.75€</strong></p>
+              <p>Total: <strong>128.75€</strong></p>
+              <article class="cart-actions">
+                <button class="continue">Seguir Comprando</button>
+                <button class="checkout">Finalizar Pedido</button>
+              </article>
+            </section>
+          </section>
+    </main>
+
+    <footer>
+        <article class="footer-container">
+            <!-- Info de contacto -->
+            <article class="footer-section contacto">
+                <h3>Contacto</h3>
+                <p>📞 Teléfono: +34 123 456 789</p>
+                <p>✉️ Email: <a href="mailto:soporte@boxingmerch.com">soporte@boxingmerch.com</a></p>
+                <p>📍 Dirección: Calle Ficticia 123, Cadiz, España</p>
+            </article>
+    
+            <!-- Navegación footer -->
+            <article class="footer-section navegacion">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </article>
+    
+            <!-- Redes sociales -->
+            <article class="redes-icons">
+                    <h3>Síguenos</h3>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+            </article>
+
+            <!-- Metodos de Pago -->
+            <article class="pay-icons">
+                <h3>Pagos</h3>
+                <a href="#"><i class="fas fa-credit-card"></i></a>
+                <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+                <a href="#"><i class="fab fa-paypal"></i></a>
+
+            </article>
+        </article>
+    
+        <!-- Copyright -->
+        <article class="footer-copyright">
+            <p>&copy; 2024 Boxing Merch. Todos los derechos reservados.</p>
+        </article>
+        
+    </footer>
+</body>
+</html>
+
