@@ -79,6 +79,7 @@ nav ul li a:hover{
 
 hr{
     margin: 1rem;
+    width: 100rem;
     border-color: red;
 }
 
@@ -136,6 +137,7 @@ main{
     flex-direction: column;
     align-items: center;
     background-image: url(/ProyectoLGDM/assets/img/pag_principal/foto_mainpage2.jpg);
+    background-size:cover;
     object-fit: cover;
     background-repeat: no-repeat;
 
@@ -144,6 +146,99 @@ main{
 main h1{
     color: white;
     padding-top: 1rem;
+}
+
+.formulario {
+    background-color: #121212;
+    border: 2px solid #ff0000;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 9rem;
+    width: 100%;
+    max-width: 400px;
+    color: white;
+    text-align: center;
+}
+
+.formulario h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #ff0000;
+}
+
+.formulario label {
+    display: block;
+    font-size: 1rem;
+    margin: 1rem 0 0.5rem;
+    text-align: left;
+    color: white;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #000;
+}
+
+.icono_input {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.icono_input i{
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 0.5rem;
+    border-color: white;
+    height: 2.5rem;
+    padding: 0.6rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    
+}
+
+.formulario button {
+    display: inline-block;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: #e60000;
+}
+
+.formulario .entrar{
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.formulario a {
+    display: block;
+    margin-top: 1rem;
+    color: #00d0ff;
+    text-decoration: none;
+}
+
+.formulario a:hover {
+    text-decoration: underline;
+}
+
+.formulario .entrar:hover{
+    text-decoration: none;
 }
 
 /* Contenedor principal */
@@ -175,34 +270,6 @@ main h1{
 
 .contenedor_imagen {
     position: relative; /* Necesario para que los iconos se posicionen correctamente */
-}
-
-
-.iconos {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    display: flex;
-    gap: 0.5rem; /* Espaciado entre los íconos */
-}
-
-.iconos span {
-    color: white;
-    font-size: 1.2rem;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-
-.iconos span:hover {
-    transform: scale(1.1);
-}
-
-.fa-heart:hover {
-    color: red;
-}
-
-.fa-cart-plus:hover {
-    color: rgba(116, 239, 255, 0.73);
 }
 
 
