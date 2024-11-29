@@ -131,14 +131,12 @@ hr{
 main{
     width: 100%;
     /* height: 68.89vh; */
-    height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: url(/ProyectoLGDM/assets/img/pag_principal/foto_mainpage2.jpg);
     object-fit: cover;
     background-repeat: no-repeat;
-
 }
 
 main h1{
@@ -148,7 +146,6 @@ main h1{
 
 /* Contenedor principal */
 .galeria {
-    width: 70%;
     display: flex;
     flex-direction: row; 
     align-items: center; 
@@ -205,7 +202,132 @@ main h1{
     color: rgba(116, 239, 255, 0.73);
 }
 
+.hero {
+    text-align: center;
+    color: white;
+    background-image: url('./assets/img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 2rem;
+}
 
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn-principal {
+    background-color: rgba(255, 0, 0, 0.622);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-principal:hover {
+    background-color: rgba(255, 0, 0, 0.882);
+}
+
+/* Información de la empresa */
+.empresa {
+    padding: 2rem;
+    text-align: center;
+}
+
+.empresa h2 {
+    font-size: 2rem;
+    color: red;
+    margin-bottom: 1rem;
+    
+}
+
+.hr_sobrenosotros{
+    margin: 1rem auto;
+    width: 20rem;
+    border-color: white;
+}
+
+.empresa p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    background-color: #121212ac;
+    color: white;
+}
+
+/* Categorías */
+.categorias {
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.categorias h2 {
+    font-size: 2rem;
+    color: red;
+    margin-bottom: 2rem;
+    border: solid;
+    border-width: 0.2rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    background-color: rgba(0, 0, 0, 0.707);
+    
+}
+
+.cajas-categorias {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.caja {
+    text-align: center;
+    background: linear-gradient(to bottom, #000000, #ff00008a); /* Degradado rojo */
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 200px;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caja:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Productos destacados */
+.productos-destacados {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.682);
+    text-align: center;
+    border-radius: 1rem;
+
+}
+
+.hr_productos-destacados{
+    margin: 1rem auto;
+    width: 25rem;
+    border-color: white;
+}
+
+.productos-destacados img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.productos-destacados h2 {
+    font-size: 2rem;
+    color: red;
+    margin-bottom: 1rem;
+}
 
 
 
@@ -221,8 +343,8 @@ main h1{
 
 footer {
     background-color: #121212; 
-    color: #ffffff;
-    padding: 1rem 10rem;
+    color: #ffffff; 
+    padding: 20px 40px;
 }
 
 /* Contenedor del footer */
@@ -231,7 +353,6 @@ footer {
     flex-wrap: wrap; 
     justify-content: space-between; 
     max-width: 100rem;
-    height: 6rem;
 }
 
 
@@ -270,9 +391,20 @@ footer {
     color: #ffffff; /* Cambia a blanco al pasar el cursor */
 }
 
+.pay-icons a {
+    color: rgb(253, 101, 131); 
+    font-size: 1.5rem; 
+    padding-right: 0.7rem; 
+    transition: color 0.3s ease; 
+}
+
+.pay-icons a:hover {
+    color: #ffffff; 
+}
+
 .footer-copyright {
     text-align: center;
-    padding-top: 1.5rem;
+    margin-top: 1rem;
     font-size: 14px;
     color: #aaaaaa;
 }
