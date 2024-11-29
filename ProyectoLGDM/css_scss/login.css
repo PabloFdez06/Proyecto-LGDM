@@ -139,7 +139,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/ProyectoLGDM/assets/img/pag_principal/foto_mainpage2.jpg);
+    background-image: url(/ProyectoLGDM/assets/img/pag_principal/foto_mainpage2.png);
     background-size:cover;
     object-fit: cover;
     background-repeat: no-repeat;
