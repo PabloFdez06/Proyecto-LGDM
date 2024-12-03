@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- fuente -->
     <script src="https://kit.fontawesome.com/aba1cb0a6a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/icons/BoxingMerchicon.png" type="image/x-icon">
+
 
 
     <title>BoxingMerch</title>
@@ -30,7 +32,6 @@
                         <li><a href="./camisetas.html">CAMISETAS</a></li>
                         <li><a href="./guantes.html">GUANTES</a></li>
                         <li><a href="./accesorios.html">ACCESORIOS Y DEMÁS</a></li>
-                        <li><a href="./colaboradores.html">COLABORADORES</a></li>
                     </ul>
             </article>
 
@@ -46,29 +47,69 @@
     </header>
 
 
-    <main>
-        <article class="producto">
-            <article class="info-producto">
-                <h1>Guantes Venum V2 Gold Edition</h1>
-                <ul>
-                    <li>Onzas: 12Oz</li>
-                    <li>Color: Oro y Negro</li>
-                    <li>Cierre: Velcro</li>
-                    <article class="imagenes-pequeñas">
-                        <img src="./assets/img/fotos_productos/guantes_negro_oro.png" alt="">
-                        <img src="./assets/img/fotos_productos/guantes_azul_blanco.png" alt="">
-                    </article>
+    <main class="container">
+        <section class="product-detail">
+            <article class="product-images">
+                <img src="./assets/img/fotos_productos/guantes_negro_oro.png" alt="Guantes Venum" class="main-image">
+                <article class="image-thumbnails">
+                    <img src="./assets/img/fotos_productos/guantes_negro_oro.png" alt="Vista 1">
+                    <img src="./assets/img/fotos_productos/guantes_azul_blanco.png" alt="Vista 2">
+                </article>
+            </article>
+            <article class="product-info">
+                <h1 class="product-title">Guantes Venum V2 Gold Edition</h1>
+                <article class="rating">
+                    ⭐⭐⭐⭐⭐ <span>(4.8/5 en 120 valoraciones)</span>
+                </article>
+                <p class="product-price">89.99€</p>
+                <p class="product-description">
+                    Diseñados para maximizar el rendimiento y la comodidad durante tus entrenamientos. Perfectos para boxeadores de todos los niveles.
+                </p>
 
-                    <h2>PRECIO: 89.99€</h2>
+                <ul class="product-features">
+                    <li>✔️ Material: Cuero sintético premium</li>
+                    <li>✔️ Onzas: 12Oz</li>
+                    <li>✔️ Color: Oro y Negro</li>
+                    <li>✔️ Cierre: Velcro reforzado</li>
                 </ul>
-                <details>
-                    <summary>Descripción</summary>
-                    <p>La espuma de cuadruplicar densidad equilibra el choque, mejorándote como luchador sin la tensión en tus brazos durante los impactos. El diseño único y los nuevos colores son aptos para todos los luchadores, sin importar su nivel.Las costuras reforzadas y los paneles de malla combinados con su forma ergonómica te proporcionarán un ajuste cómodo y te sentirás como si realmente fueras uno con el guante.
+                <article class="purchase-section">
+                    <label for="quantity">Cantidad:</label>
+                    <input type="number" id="quantity" name="quantity" value="1" min="1">
+                    <button class="btn btn-buy">Comprar ahora</button>
+                    <button class="btn btn-cart">Añadir al carrito</button>
+                </article>
+                <details class="product-details">
+                    <summary>
+                        <span>Detalles del producto</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </summary>
+                    <p>
+                        Estos guantes están fabricados con cuero sintético premium, combinando durabilidad y estilo. 
+                        El sistema de cierre con velcro asegura un ajuste perfecto durante el entrenamiento, brindando confort y resistencia.
                     </p>
                 </details>
             </article>
+        </section>
 
-        </article>
+        <section class="related-products">
+            <h2>Productos Relacionados</h2>
+            <article class="related-grid">
+                <article class="card">
+                    <img src="./assets/img/fotos_productos/guantes_azul_blanco.png" alt="Guantes Azul">
+                    <article class="card-content">
+                        <h3>Guantes Venum Blue</h3>
+                        <p class="price">79.99€</p>
+                    </article>
+                </article>
+                <article class="card">
+                    <img src="./assets/img/cesta/camiseta.png" alt="Camiseta Negra">
+                    <article class="card-content">
+                        <h3>Camiseta Everlast</h3>
+                        <p class="price">29.99€</p>
+                    </article>
+                </article>
+            </article>
+        </section>
     </main>
     
 

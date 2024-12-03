@@ -1,8 +1,9 @@
 *{
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    font-family: monospace;
+    font-size: 15px;
 }
 
 a{   
@@ -138,12 +139,15 @@ main{
     background-color: rgba(0, 0, 0, 0.729);
 }
 
+
+
 main h1{
+    font-size: 1.5rem;
     color: white;
     padding-top: 1rem;
     width: 100%;
     text-align: center;
-    padding-left: 6rem;
+    padding-left: 2rem;
 }
 
 /* Contenedor principal para filtros y galería */

@@ -1,8 +1,10 @@
 *{
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    font-family: monospace;
+    font-size: 15px;
+    
 }
 
 a{   
@@ -135,6 +137,7 @@ main{
     background-color: #1b1b1baa;
     padding: 50px;
 }
+
 
 .shopping-cart {
     max-width: 800px;

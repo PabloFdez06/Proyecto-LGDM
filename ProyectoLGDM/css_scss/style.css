@@ -1,9 +1,14 @@
+
+
 *{
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    font-family: monospace;
+    font-size: 15px;
 }
+
+
 
 a{   
     text-decoration: none;
@@ -79,7 +84,7 @@ nav ul li a:hover{
     color: white;
     text-align: center;
     font-size: xx-large;
-    padding-right: 6.3rem;
+    padding-right: 5rem;
 }
 
 hr{
@@ -142,7 +147,9 @@ main{
     background-image: url(/ProyectoLGDM/assets/img/pag_principal/foto_mainpage2.png);
     object-fit: cover;
     background-repeat: no-repeat;
+    background-color: black;
 }
+
 
 main h1{
     color: white;
