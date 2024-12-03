@@ -1,8 +1,9 @@
 *{
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    font-family: monospace;
+    font-size: 15px;
 }
 
 a{   
@@ -82,7 +83,6 @@ nav ul li a:hover{
 
 hr{
     margin: 1rem;
-    width: 100rem;
     border-color: red;
 }
 
@@ -128,156 +128,25 @@ hr{
 /* ######################################### */
 
 /* ---------- ----------------- ------------ */
-/* ---------- COMIENZO DEL MAIN ------------ */
-/* ---------- ----------------- ------------ */
-
-
-main{
-    width: 100%;
-    /* height: 68.89vh; */
-    height: 85vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(/ProyectoLGDM/assets/img/pag_principal/foto_mainpage2.png);
-    background-size:cover;
-    object-fit: cover;
-    background-repeat: no-repeat;
-
-}
-
-main h1{
-    color: white;
-    padding-top: 1rem;
-}
-
-/* FORMULTARIO */
-.formulario {
-    background-color: #121212;
-    border: 2px solid #ff0000;
-    border-radius: 1rem;
-    padding: 2rem;
-    margin-top: 2rem;
-    width: 100%;
-    max-width: 400px;
-    color: white;
-    text-align: center;
-}
-
-.formulario h1 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-    color: #ff0000;
-}
-
-.formulario label {
-    display: block;
-    font-size: 1rem;
-    margin: 1rem 0 0.5rem;
-    text-align: left;
-    color: white;
-}
-
-.formulario input {
-    width: 100%;
-    padding: 0.4rem;
-    border: 1px solid #ccc;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
-    font-size: 1rem;
-    color: #000;
-}
-
-.icono_input {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-}
-
-.icono_input i{
-    border-style: solid;
-    border-width: 1.5px;
-    border-radius: 0.5rem;
-    border-color: white;
-    height: 2.5rem;
-    padding: 0.6rem;
-    text-decoration: none;
-    color: white;
-    font-size: 1.4rem;
-    
-}
-
-main hr {
-    width: 100%;
-    margin: 0.8rem auto;
-    
-}
-
-.formulario button {
-    display: inline-block;
-    width: 100%;
-    padding: 0.8rem;
-    background-color: #ff0000;
-    border: none;
-    border-radius: 0.5rem;
-    color: white;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.formulario button:hover {
-    background-color: #e60000;
-}
-
-.formulario .registrarse{
-    margin: 0px;
-    color: white;
-    text-decoration: none;
-}
-
-
-.formulario a {
-    display: block;
-    margin-top: 1rem;
-    color: #00d0ff;
-    text-decoration: none;
-}
-
-.formulario a:hover {
-    text-decoration: underline;
-}
-
-.formulario .registrarse:hover{
-    text-decoration: none;
-}
-
-
-
-/* ---------- ----------------- ------------ */
-/* ---------- FIN DEL MAIN ------------ */
-/* ---------- ----------------- ------------ */
-
-
-/* ---------- ----------------- ------------ */
 /* ---------- COMIENZO DEL FOOTER ------------ */
 /* ---------- ----------------- ------------ */
 
-/* footer {
+footer {
     background-color: #121212; 
-    color: #ffffff;
-    padding: 1rem 10rem;
+    color: #ffffff; 
+    padding: 20px 40px;
 }
 
+/* Contenedor del footer */
 .footer-container {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between; 
     max-width: 100rem;
-    height: 6rem;
 }
 
 
+/* Títulos de las secciones */
 .footer-container h3 {
     font-size: 18px;
     color: #e5e5e5;
@@ -285,6 +154,7 @@ main hr {
     padding-bottom: 1rem;
 }
 
+/* Enlaces */
 .footer-container a {
     color: rgb(253, 101, 131); 
     text-decoration: none;
@@ -304,20 +174,31 @@ main hr {
     color: rgb(253, 101, 131); 
     font-size: 1.5rem; 
     margin-right: 10px; 
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease; /* Animación al pasar el cursor */
 }
 
 .redes-icons a:hover {
+    color: #ffffff; /* Cambia a blanco al pasar el cursor */
+}
+
+.pay-icons a {
+    color: rgb(253, 101, 131); 
+    font-size: 1.5rem; 
+    padding-right: 0.7rem; 
+    transition: color 0.3s ease; 
+}
+
+.pay-icons a:hover {
     color: #ffffff; 
 }
 
 .footer-copyright {
     text-align: center;
-    padding-top: 1.5rem;
+    margin-top: 1rem;
     font-size: 14px;
-    color: #aaaaaa; 
+    color: #aaaaaa;
 }
-*/
+
 /* ---------- ----------------- ------------ */
 /* ---------- FIN DEL FOOTER ------------ */
 /* ---------- ----------------- ------------ */
