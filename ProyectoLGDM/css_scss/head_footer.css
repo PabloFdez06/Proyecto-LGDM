@@ -183,11 +183,14 @@ hr {
         left: 0;
         right: 0;
         background-color: black;
+        justify-content: flex-end;
         flex-direction: column;
         align-items: center;
-        padding: 1rem;
+        padding-bottom: -4rem;
         gap: 1rem;
     }
+
+
 
     /* Cuando el menú hamburguesa está activo */
     .menu_toggle:checked ~ .titulo_y_menu .menu_links {
@@ -195,9 +198,9 @@ hr {
     }
 
     /* retoquillos en los enlaces en modo hamburguesa */
+
     .menu_links li a {
         font-size: 1rem;
-        padding: 0.6rem;
     }
 
     .titulo_y_menu {
