@@ -57,7 +57,7 @@ main h1{
     bottom: 1rem;
     right: 1rem;
     display: flex;
-    gap: 0.5rem; /* Espaciado entre los íconos */
+    gap: 0.5rem; 
 }
 
 .iconos span {

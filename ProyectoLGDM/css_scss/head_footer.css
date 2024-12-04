@@ -154,7 +154,7 @@ hr {
 }
 
 
-/* menú hamburguesa en pantallas más pequeñas */
+/* menú hamburguesa */
 @media screen and (max-width: 770px) {
     /* Rehacemos el header */
     nav {
@@ -263,11 +263,11 @@ footer {
     color: rgb(253, 101, 131); 
     font-size: 1.5rem; 
     margin-right: 10px; 
-    transition: color 0.3s ease; /* Animación al pasar el cursor */
+    transition: color 0.3s ease; 
 }
 
 .redes-icons a:hover {
-    color: #ffffff; /* Cambia a blanco al pasar el cursor */
+    color: #ffffff; 
 }
 
 .pay-icons a {

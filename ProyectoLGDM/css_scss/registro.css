@@ -71,7 +71,7 @@ nav ul li a{
 
 nav ul li a:hover{
     color: #ff0000;
-    transition: color 0.3s ease; /* Animación al pasar el cursor */
+    transition: color 0.3s ease; 
 }
 
 .titulo_nav{
@@ -118,7 +118,7 @@ hr{
 
 .botones_extremo_derecho ul li a:hover{
     color: #ff0000;
-    transition: color 0.3s ease; /* Animación al pasar el cursor */
+    transition: color 0.3s ease; 
 }
 
 
@@ -251,73 +251,3 @@ main hr {
 .formulario .registrarse:hover{
     text-decoration: none;
 }
-
-
-
-/* ---------- ----------------- ------------ */
-/* ---------- FIN DEL MAIN ------------ */
-/* ---------- ----------------- ------------ */
-
-
-/* ---------- ----------------- ------------ */
-/* ---------- COMIENZO DEL FOOTER ------------ */
-/* ---------- ----------------- ------------ */
-
-/* footer {
-    background-color: #121212; 
-    color: #ffffff;
-    padding: 1rem 10rem;
-}
-
-.footer-container {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between; 
-    max-width: 100rem;
-    height: 6rem;
-}
-
-
-.footer-container h3 {
-    font-size: 18px;
-    color: #e5e5e5;
-    text-transform: uppercase;
-    padding-bottom: 1rem;
-}
-
-.footer-container a {
-    color: rgb(253, 101, 131); 
-    text-decoration: none;
-}
-
-.footer-container a:hover {
-    text-decoration: underline; 
-}
-
-.footer-navegacion ul {
-    list-style: none;
-    
-}
-
-
-.redes-icons a {
-    color: rgb(253, 101, 131); 
-    font-size: 1.5rem; 
-    margin-right: 10px; 
-    transition: color 0.3s ease; 
-}
-
-.redes-icons a:hover {
-    color: #ffffff; 
-}
-
-.footer-copyright {
-    text-align: center;
-    padding-top: 1.5rem;
-    font-size: 14px;
-    color: #aaaaaa; 
-}
-*/
-/* ---------- ----------------- ------------ */
-/* ---------- FIN DEL FOOTER ------------ */
-/* ---------- ----------------- ------------ */

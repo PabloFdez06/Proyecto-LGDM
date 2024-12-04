@@ -32,7 +32,7 @@ main h1{
 
 /* Menú de filtros */
 .menu_filtros {
-    width: 20%; /* El menú ocupa el 20% del ancho */
+    width: 20%; 
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     padding: 1.5rem;

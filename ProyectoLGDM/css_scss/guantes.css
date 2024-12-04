@@ -32,7 +32,7 @@ main h1{
 
 /* Menú de filtros */
 .menu_filtros {
-    width: 20%; /* El menú ocupa el 20% del ancho */
+    width: 20%; 
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     padding: 1.5rem;
@@ -105,7 +105,7 @@ main h1{
 
 /* Galería de productos */
 .galeria {
-    width: 75%; /* La galería ocupa el 75% del ancho */
+    width: 75%; 
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -136,7 +136,7 @@ main h1{
     bottom: 1rem;
     right: 1rem;
     display: flex;
-    gap: 0.5rem; /* Espaciado entre los íconos */
+    gap: 0.5rem; 
 }
 
 .iconos span {
@@ -178,8 +178,8 @@ main h1{
     }
 
     .menu_filtros {
-        width: 80%; /* El menú de filtros ocupa el 100% del ancho */
-        margin-bottom: 1rem; /* Separar un poco de la galería */
+        width: 80%; 
+        margin-bottom: 1rem; 
     }
 }
 

@@ -3,14 +3,9 @@
 /* ---------- ----------------- ------------ */
 
 body {
-    color: #333; /* Texto principal */
+    color: #333; 
     margin: 0;
-    background: #00000079; /* Fondo claro */
-}
-
-/* Asegurar fuentes en todos los elementos */
-main, .product-detail, .related-products, .product-info, .purchase-section, .card-content, footer{
-    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0.729);
 }
 
 .container {
@@ -19,7 +14,6 @@ main, .product-detail, .related-products, .product-info, .purchase-section, .car
     padding: 0 1rem;
 }
 
-/* Detalle del producto */
 .product-detail {
     display: flex;
     gap: 2rem;
@@ -65,7 +59,6 @@ main, .product-detail, .related-products, .product-info, .purchase-section, .car
     transform: rotate(180deg); /* Gira la flecha hacia arriba */
 }
 
-/* Contenido del desplegable */
 .product-details p {
     padding: 1rem;
     background: #f8f8f8; 
@@ -81,7 +74,7 @@ main, .product-detail, .related-products, .product-info, .purchase-section, .car
 .main-image {
     width: 100%;
     border-radius: 8px;
-    border: 2px solid #111; /* Borde negro */
+    border: 2px solid #111;
 }
 
 .image-thumbnails img {
@@ -98,17 +91,17 @@ main, .product-detail, .related-products, .product-info, .purchase-section, .car
 
 .product-title {
     font-size: 2rem;
-    color: #111; /* Negro */
+    color: #111; 
 }
 
 .rating {
     font-size: 1rem;
-    color: #e60000; /* Rojo vivo */
+    color: #e60000; 
 }
 
 .product-price {
     font-size: 1.5rem;
-    color: #e60000; /* Rojo */
+    color: #e60000;
 }
 
 .product-description {
@@ -122,7 +115,6 @@ main, .product-detail, .related-products, .product-info, .purchase-section, .car
     margin-top: 1rem;
 }
 
-/* Botones estilizados */
 .purchase-section {
     margin-top: 2rem;
     display: flex;
@@ -132,13 +124,13 @@ main, .product-detail, .related-products, .product-info, .purchase-section, .car
 
 .btn {
     padding: 0.8rem 1.5rem;
-    border: 2px solid #e60000; /* Borde rojo */
+    border: 2px solid #e60000; 
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
     color: white;
-    background: #e60000; /* Fondo rojo */
-    transition: all 0.3s; /* Transición */
+    background: #e60000; 
+    transition: all 0.3s; 
 }
 
 .btn:hover {
@@ -146,11 +138,10 @@ main, .product-detail, .related-products, .product-info, .purchase-section, .car
     color: #e60000;
 }
 
-/* Productos relacionados */
 .related-products h2 {
     margin-bottom: 1rem;
     padding-top: 1rem;
-    color: #111; /* Negro */
+    color: #111; 
 }
 
 .related-grid {
@@ -164,13 +155,13 @@ main, .product-detail, .related-products, .product-info, .purchase-section, .car
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 180px; /* Tamaño reducido */
+    max-width: 180px; 
 }
 
 .card img {
     width: 100%;
     height: 200px;
-    border-bottom: 2px solid #e60000; /* Línea roja */
+    border-bottom: 2px solid #e60000; 
 }
 
 .card-content {
@@ -179,7 +170,7 @@ main, .product-detail, .related-products, .product-info, .purchase-section, .car
 }
 
 .price {
-    color: #e60000; /* Texto rojo */
+    color: #e60000; 
     font-weight: bold;
 }
 
@@ -199,8 +190,8 @@ main, .product-detail, .related-products, .product-info, .purchase-section, .car
     }
 
     .menu_filtros {
-        width: 80%; /* El menú de filtros ocupa el 100% del ancho */
-        margin-bottom: 1rem; /* Separar un poco de la galería */
+        width: 80%; 
+        margin-bottom: 1rem; 
     }
 }
 
