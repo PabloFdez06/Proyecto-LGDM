@@ -186,3 +186,24 @@ main, .product-detail, .related-products, .product-info, .purchase-section, .car
 /* ---------- ----------------- ------------ */
 /* ---------- FIN DEL MAIN ------------ */
 /* ---------- ----------------- ------------ */
+
+
+/* ---------- ----------------- ------------ */
+/* ---------- DISEÑO RESPONSIVE ------------ */
+/* ---------- ----------------- ------------ */
+
+@media screen and (max-width: 1015px) {
+    .contenedor_principal {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_filtros {
+        width: 80%; /* El menú de filtros ocupa el 100% del ancho */
+        margin-bottom: 1rem; /* Separar un poco de la galería */
+    }
+}
+
+/* ---------- ----------------- ------------ */
+/* ---------- FIN DEL RESPONSIVVVVVEEEEE ------------ */
+/* ---------- ----------------- ------------ */

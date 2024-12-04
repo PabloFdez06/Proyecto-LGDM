@@ -67,7 +67,6 @@ nav ul li a:hover {
 .titulo_nav {
     color: white;
     text-align: center;
-    padding-right: 8rem;
     font-size: xx-large;
 }
 
@@ -111,7 +110,7 @@ hr {
     display: none;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1336px) {
     nav ul li a {
         font-size: 0.9rem;
         padding: 0.5rem 1rem; 
@@ -127,7 +126,7 @@ hr {
 
 @media screen and (max-width: 1200px) {
     nav ul li a {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         padding: 0.4rem 0.8rem; 
         border: none; 
         white-space: nowrap; 
@@ -138,21 +137,18 @@ hr {
     }
 }
 
-@media screen and (max-width: 1057px) {
+@media screen and (max-width: 992px) {
     nav ul li a {
-        font-size: 0.6rem;
-        padding: 0.2rem 0.4rem;
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
         border: none; 
         white-space: nowrap; 
     }
 
     .menu_links {
-        gap: 1.5rem;
+        gap: 2rem;
     }
-
-
 }
-
 
 /* menú hamburguesa en pantallas más pequeñas */
 @media screen and (max-width: 770px) {
@@ -161,10 +157,6 @@ hr {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-    }
-
-    .titulo_nav{
-        padding-right: 0;
     }
 
     /* Mostramos el botón de menú hamburguesa */
@@ -210,84 +202,3 @@ hr {
         gap: 1rem;
     }
 }
-
-/* ---------- ----------------- ------------ */
-/* ---------- FIN DEL NAVEGADOR ------------ */
-/* ---------- ----------------- ------------ */
-/* ######################################### */
-
-/* ---------- ----------------- ------------ */
-/* ---------- COMIENZO DEL FOOTER ------------ */
-/* ---------- ----------------- ------------ */
-
-footer {
-    background-color: #121212; 
-    color: #ffffff; 
-    padding: 20px 40px;
-}
-
-/* Contenedor del footer */
-.footer-container {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between; 
-    max-width: 100rem;
-}
-
-
-/* Títulos de las secciones */
-.footer-container h3 {
-    font-size: 18px;
-    color: #e5e5e5;
-    text-transform: uppercase;
-    padding-bottom: 1rem;
-}
-
-/* Enlaces */
-.footer-container a {
-    color: rgb(253, 101, 131); 
-    text-decoration: none;
-}
-
-.footer-container a:hover {
-    text-decoration: underline; 
-}
-
-.footer-navegacion ul {
-    list-style: none;
-    
-}
-
-
-.redes-icons a {
-    color: rgb(253, 101, 131); 
-    font-size: 1.5rem; 
-    margin-right: 10px; 
-    transition: color 0.3s ease; /* Animación al pasar el cursor */
-}
-
-.redes-icons a:hover {
-    color: #ffffff; /* Cambia a blanco al pasar el cursor */
-}
-
-.pay-icons a {
-    color: rgb(253, 101, 131); 
-    font-size: 1.5rem; 
-    padding-right: 0.7rem; 
-    transition: color 0.3s ease; 
-}
-
-.pay-icons a:hover {
-    color: #ffffff; 
-}
-
-.footer-copyright {
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 14px;
-    color: #aaaaaa;
-}
-
-/* ---------- ----------------- ------------ */
-/* ---------- FIN DEL FOOTER ------------ */
-/* ---------- ----------------- ------------ */
