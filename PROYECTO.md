@@ -7,10 +7,10 @@ La funcionalidad básica que debe ofrecer es brindarle usabilidad al usuario, qu
 
 Para ello, haremos uso de **HTML5** para la estructura de la web, **CSS3** para el diseño, **Balsamiq** para los wireframes y por ultimo **git** como controlador de versiónes y **github** para subir el repositorio de nuetro proyecto, en el que hacemos uso de **Markdown** para toda información que se ve en esta página ;).
 
-## 2. **Creación de un wireframe en Balsamiq:**
+2. **Creación de un wireframe en Balsamiq:**
 #### [Wireframe del proyecto](Wireframe_Proyecto_LGDM.pdf)
 
-## 3. **Estructura HTML planificada:** ##
+3. **Estructura HTML planificada:**
 
 Mi proyecto seguirá una estructura, la cual será la siguiente: head, donde se encontrara todos los meta del documento. Un body el cual incluye: 
 - Un Header, en el cual encontramos el NAV, es decir el navegador de la web, junto al logo, y en algunas encontraremos el carrito de la compra y el logo del perfil, vaya, en todas menos en login y register.
