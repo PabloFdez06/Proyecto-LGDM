@@ -78,7 +78,7 @@ Los códigos del CSS estan exclusivamente realizados para cada página, excepto 
 ![PESO OPTIMIZADO](./Optimizacion_IMG/Optimizado.png "compr")
 
 **- COMPROBACIÓN EN DISTINTOS NAVEGADORES**
-- La web ha sido comprobada en distintos navegadores, y tiene un funcionamiento correcto!
+- La web ha sido comprobada en distintos navegadores y dispositivos, y tiene un funcionamiento correcto!
 
 **- COMPROBACION EN LIGHTHOUSE**
 - PRUEBA INDEX
