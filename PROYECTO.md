@@ -55,7 +55,7 @@ Tenemos menus, formularios, transiciones, desplegables, imagenes, etc, etc...
 - La siguiente Imagen es del REGISTER en este caso, y obtendremos el mismo error que en el LOGIN, el cual tiene ambas intenciones.
 ![Validación REGISTER](./Capturas__validaciones_W3C/pág_registro.png "Validacion register")
 
-- En esta ocasion, nos da un error el cual vamos a permitir, el hr simplemente nos está haciendo una separación entre 2 ul, como queremos que la linea separativa este entre las listas de los filtros, ese hr debe estar ahi.
+- En esta ocasion, nos da un error el cual vamos a corregir, el hr simplemente nos está haciendo una separación entre 2 ul, como queremos que la linea separativa este entre las listas de los filtros, ese hr debe estar ahi, pero para corregirlo podemos meterlo entre un li, y sería una buena práctica de corrección.
 ![Validación SUDADERAS(filtros)](./Capturas__validaciones_W3C/pág_sudaderas.png "Validacion sudaderas(filtros)")
 
 - FILTROS CORREGIDOS
