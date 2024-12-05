@@ -58,7 +58,14 @@ Tenemos menus, formularios, transiciones, desplegables, imagenes, etc, etc...
 - En esta ocasion, nos da un error el cual vamos a permitir, el hr simplemente nos está haciendo una separación entre 2 ul, como queremos que la linea separativa este entre las listas de los filtros, ese hr debe estar ahi.
 ![Validación SUDADERAS(filtros)](./Capturas__validaciones_W3C/pág_sudaderas.png "Validacion sudaderas(filtros)")
 
-**2. Validación del Código HTML**
+- FILTROS CORREGIDOS
+![Validación SUDADERAS(filtros)](./Capturas__validaciones_W3C/pág_sudaderas.png "Validacion sudaderas(filtros)")
+
+
+**2. Validación del Código CSS**
+
+- Muestro aqui una de las capturas del CSS, todas son iguales, no he recibido ningun error en las hojas de estilo, por lo que mostrare una tan solo.
+![Validación REGISTER](./Capturas__validaciones_W3C/todos_los_CSS.png "Validacion sudaderas(filtros)")
 
 
 - Muestro aqui una de las capturas del CSS, todas son iguales, no he recibido ningun error en las hojas de estilo, por lo que mostrare una tan solo.
