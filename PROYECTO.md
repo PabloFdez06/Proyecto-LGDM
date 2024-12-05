@@ -59,7 +59,7 @@ Tenemos menus, formularios, transiciones, desplegables, imagenes, etc, etc...
 ![Validación SUDADERAS(filtros)](./Capturas__validaciones_W3C/pág_sudaderas.png "Validacion sudaderas(filtros)")
 
 - FILTROS CORREGIDOS
-![Validación SUDADERAS(filtros)](./Capturas__validaciones_W3C/pág_sudaderas.png "Validacion sudaderas(filtros)")
+![Validación SUDADERAS(filtros)](./Capturas__validaciones_W3C/pág_sudaderas_corregido.png "Validacion sudaderas(filtros)")
 
 
 **2. Validación del Código CSS**
@@ -67,9 +67,6 @@ Tenemos menus, formularios, transiciones, desplegables, imagenes, etc, etc...
 - Muestro aqui una de las capturas del CSS, todas son iguales, no he recibido ningun error en las hojas de estilo, por lo que mostrare una tan solo.
 ![Validación REGISTER](./Capturas__validaciones_W3C/todos_los_CSS.png "Validacion sudaderas(filtros)")
 
-
-- Muestro aqui una de las capturas del CSS, todas son iguales, no he recibido ningun error en las hojas de estilo, por lo que mostrare una tan solo.
-![Validación REGISTER](./Capturas__validaciones_W3C/todos_los_CSS.png "Validacion sudaderas(filtros)")
 
 
 **3. Optimización y comprobación de accesibilidad, usabilidad**
