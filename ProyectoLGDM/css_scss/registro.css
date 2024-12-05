@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a{   
@@ -71,55 +71,23 @@ nav ul li a{
 
 nav ul li a:hover{
     color: #ff0000;
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease; /* Animación al pasar el cursor */
 }
 
 .titulo_nav{
     color: white;
-    text-align: center;
-    font-size: xx-large;
+    padding-right: 15rem;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+
 }
 
 hr{
-    margin: 1rem;
-    width: 100rem;
+    width: 60rem;    
     border-color: red;
 }
 
 /* HASTA AQUI */
-
-/* -------------------------- */
-
-/* Desde aqui hasta el siguiente comentario, estilo de los 2 botones de perfil y cesta */
-
-.botones_extremo_derecho{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px;
-    border-left: 1px solid #ff0000;
-    height: 5rem;
-
-}
-
-.botones_extremo_derecho ul {
-    gap: 1rem;
-}
-
-.botones_extremo_derecho ul li a{
-    border-style: solid;
-    border-width: 0.2rem;
-    border-radius: 1rem;
-    border-color: white;
-    padding: 0.6rem;
-    text-decoration: none;
-    color: white;
-}
-
-.botones_extremo_derecho ul li a:hover{
-    color: #ff0000;
-    transition: color 0.3s ease; 
-}
 
 
 /* ---------- ----------------- ------------ */
@@ -135,7 +103,7 @@ hr{
 main{
     width: 100%;
     /* height: 68.89vh; */
-    height: 85vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,15 +125,16 @@ main h1{
     border: 2px solid #ff0000;
     border-radius: 1rem;
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 1.6rem;
     width: 100%;
+    font-size: 1;
     max-width: 400px;
     color: white;
     text-align: center;
 }
 
 .formulario h1 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
     color: #ff0000;
 }
